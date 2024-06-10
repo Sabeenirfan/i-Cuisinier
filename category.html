@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Cuisinier</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        .header {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #333;
+        }
+
+        .header nav {
+            margin-top: 10px;
+        }
+
+        .header nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .categories {
+            max-width: 1200px;
+            margin: 40px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .category {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            width: calc(25% - 20px);
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .category img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .category h3 {
+            margin: 0;
+            padding: 15px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .category p {
+            padding: 0 15px 15px;
+            color: #666;
+        }
+
+        .category:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Remove underline from links */
+        .category a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>I Cuisinier</h1>
+        <nav>
+            <a href="new homepage.html">Home</a>
+            <a href="category.html">Categories</a>
+            <a href="about us.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    <div class="categories">
+        <div class="category">
+            <a href="recipe3.html">
+                <img src="E:\updated codes\italian.jpg" alt="Italian Food">
+                <h3>Italian Food</h3>
+                <p>Explore the best of Italian cuisine.</p>
+            </a>
+        </div>
+        <div class="category">
+            <a href="recipe3.html">
+                <img src="E:\updated codes\asian.jpg" alt="Asian Food">
+                <h3>Asian Food</h3>
+                <p>Discover the flavors of Asia.</p>
+            </a>
+        </div>
+        <div class="category">
+            <a href="recipe3.html">
+                <img src="E:\updated codes\mexican.jpg" alt="Mexican Food">
+                <h3>Mexican Food</h3>
+                <p>Experience the taste of Mexico.</p>
+            </a>
+        </div>
+        <div class="category">
+            <a href="recipe3.html">
+                <img src="E:\updated codes\pakistani.jpg" alt="Pakistani Food">
+                <h3>Pakistan Food</h3>
+                <p>Indulge in traditional Pakistani dishes.</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
